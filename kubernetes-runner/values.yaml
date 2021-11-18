@@ -594,13 +594,13 @@ tolerations: []
 #     value: kubernetes
 
 ## list of hosts and IPs that will be injected into the pod's hosts file
-hostAliases:
-- ip: "172.20.15.105"
-  hostnames:
-  - "gitlab.zi-tel.ir"
-- ip: "172.20.15.16"
-  hostnames:
-  - "reg.fn.local"        
+#hostAliases:
+#- ip: ""
+#  hostnames:
+#  - ""
+#- ip: ""
+#  hostnames:
+#  - ""        
 
 ## Annotations to be added to manager pod
 ##
